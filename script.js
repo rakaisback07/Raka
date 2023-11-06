@@ -2,7 +2,7 @@ function validateLogin() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    if (username === 'user' && password === 'password') {
+    if (username === 'Sakshi' && password === 'Dolly') {
         // Successful login
         window.location.href = 'success.html'; // Redirect to a success page
     } else {
